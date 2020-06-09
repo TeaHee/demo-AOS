@@ -1,0 +1,80 @@
+/* Big tablet to 1200px */
+@media only screen and (max-width: 1200px) {
+  header #contact .form-input .submit,
+  header #contact .form-input .input {
+    padding: 10px 170px;
+    width: 40%;
+  }
+
+  footer #sologan .text-sologan {
+    padding: 20px 150px 20px 15px;
+  }
+}
+
+/* Small tablet to big tablet from 768px to 1023px */
+@media only screen and (max-width: 1023px) {
+  header #contact .form-input .submit,
+  header #contact .form-input .input {
+    padding: 10px 135px;
+    width: 40%;
+  }
+
+  footer #sologan .text-sologan {
+    padding: 20px 70px 20px 15px;
+  }
+}
+
+/* Small phones to small tablet */
+@media only screen and (max-width: 767px) {
+  header #contact .form-input .submit,
+  header #contact .form-input .input {
+    padding: 10px 80px;
+    width: 40%;
+  }
+
+  footer #sologan .text-sologan {
+    padding: 20px 0px 20px 15px;
+    font-size: 115px;
+  }
+
+  footer #sologan .text-sologan span {
+    font-size: 115px;
+  }
+
+  footer #sologan .text-sologan p {
+    font-size: 60px;
+  }
+}
+
+/* Small phones from 0 to 480px */
+@media only screen and (max-width: 480px) {
+  header #banner .bg-banner img {
+    width: 50%;
+    filter: drop-shadow(15px 20px 5px rgba(0, 0, 0, 0.2));
+  }
+  header #contact .form-input .submit,
+  header #contact .form-input .input {
+    width: 40%;
+    padding: 10px 25px;
+  }
+
+  footer #sologan .text-sologan {
+    padding: 20px 0px 20px 15px;
+  }
+
+  header #contact .title p.big-title {
+    font-size: 30px;
+  }
+
+  header #contact .title p {
+    font-size: 20px;
+  }
+
+  footer #sologan .text-sologan p {
+    font-size: 25px;
+  }
+
+  footer #sologan .text-sologan span {
+    font-size: 60px;
+  }
+}
